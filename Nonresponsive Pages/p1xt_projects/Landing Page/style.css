@@ -1,0 +1,253 @@
+body {
+  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url("images/city.jpeg");
+  display: grid;
+  grid-template-columns: 2fr 6fr 2fr;
+  height: 30em;
+}
+
+footer {
+  background-color: #f8f9fa !important;
+  padding-bottom:3em;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* For nav at top of page*/
+.top-nav {
+  text-decoration: none;
+}
+
+/* Input text for signup form */
+.input-email {
+  border: none;
+  border-radius: 0.3em;
+  color: grey;
+  height: 3em;
+  width: 40em;
+}
+
+/* Submit button for sign up */
+.signup-button {
+  background-color: #007bff;
+  border: 10px solid #007bff;
+  border-radius: 0.4em;
+  color: white;
+  font-size: 1.1em;
+}
+
+/*Each Icon Container*/
+.icon-sections {
+  height: 15em;
+  text-align: center;
+  width: 20em;
+}
+
+/*Icon Images*/
+.icon-img {
+  height: 5em;
+}
+
+/*Icon Titles*/
+.icon-titles {
+  font-size: 2em;
+}
+
+/*Pargraph within Icon Section*/
+.icon-sections-p {
+  color: #212529;
+  font-size: 1.2em;
+}
+
+/*images for showcase section*/
+.showcase-img {
+  width: 100%;
+}
+
+/* Text sections of showcase*/
+.showcase-text {
+  margin: auto;
+  padding: 5em;
+  text-align: left;
+}
+
+/*Headers of showcase text*/
+.showcase-text-header {
+  font-size: 2em;
+}
+
+/*Showcase section -> Text Section -> Paragraphs*/
+.showcase-sections-p {
+  font-size: 1.2em;
+}
+
+/* Each testimonial div */
+.testimonial-section {
+  height: 20em;
+  text-align: center;
+  width: 20em;
+}
+
+/*Images for Testimonials*/
+.testimonial-img {
+  border-radius: 50%;
+  box-shadow: 0.1em 0.1em #adb5bd;
+  height: 10em;
+}
+
+/*Testimonal section paragraphs */
+.testimonial-section-p {
+  color: #212529;
+  font-size: 1em;
+  font-style: italic;
+}
+
+/*Social Media Links At Bottom of Page */
+.social-media-links {
+  width: 2em;
+  margin:0.3em;
+}
+
+/* Text Links at the bottom footer */
+.bottom-text-links {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/*Interpuncts between text links in footer*/
+.footer-interpunct {
+  color: #007bff;
+  display: inline-block;
+}
+
+/* Top of page - Container for nav at very top */
+#container-top-nav {
+  align-items: center;
+  background-color: #f8f9fa !important;
+  display: flex;
+  justify-content: space-between;
+  padding: 0em 3em;
+}
+
+/* Top Left of Screen - Homepage Link */
+#homepage-link {
+  bottom: 0.1em;
+  color: black;
+  display: inline-block;
+  font-size: 1.5em;
+  font-weight: lighter;
+  left: 0.5em;
+  position: relative;
+}
+
+/* Top Right of Screen - Sign in Button */
+#signin-link {
+  background-color: #007bff;
+  border: 7px solid #007bff;
+  border-radius: 0.3em;
+  color: white;
+  display: inline-block;
+  font-size: 1.2em;
+  margin: 0.5em 0;
+}
+
+/* Header title */
+#page-title {
+  color: white;
+  font-size: 3em;
+  grid-column: 2;
+  grid-row: 2;
+  text-align: center;
+  vertical-align: center;
+}
+
+/*Sign-up form at top of page */
+#title-signup {
+  font-family: inherit;
+  grid-column: 2;
+  grid-row: 2;
+  position: relative;
+  top: 60%;
+  text-align: center;
+}
+
+/*The three icons*/
+#icons {
+  background-color: #f8f9fa !important;
+  display: flex;
+  justify-content: space-around;
+  padding: 5em 10em 2em 10em;
+}
+
+/*Showcase grid of alternating image and text*/
+#showcase-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* Testimonials flexbox */
+#testimonial {
+  background-color: #f8f9fa !important;
+  display: flex;
+  justify-content: space-around;
+  padding: 5em 10em 0em 10em;
+}
+
+/*Bottom Call To Action Section - Includes header and signup form */
+#bot-call-action {
+  background-image: url("images/city.jpeg");
+  display: grid;
+  grid-template-columns: 2fr 8fr 2fr;
+  height: 20em;
+}
+
+/*Bottom Call To Action Header */
+#call-action-h {
+  color: white;
+  font-size: 3em;
+  grid-column: 2;
+  grid-row: 2;
+  text-align: center;
+}
+
+/*Bottom Call To Action Input Form */
+#call-action-form {
+  grid-column: 2;
+  grid-row: 2;
+  position: relative;
+  text-align: center;
+  top: 50%;
+}
+
+/*Container Social Media Links*/
+#container-social-media-links {
+  float: right;
+  position: relative;
+  top: 3em;
+  right: 3em;
+}
+
+/*Containing Nav for text based links in footer*/
+#container-bottom-text-links {
+  color: #007bff;
+  display: flex;
+  font-size: 1.0em;
+  padding: 1.4em 0em 0em 3em;
+}
+
+/*Copyright Text at bottom of page */
+#copright-text {
+  color: #6c757d !important;
+  font-size: 0.8em;
+  margin: 0;
+  padding-left: 4em;
+}

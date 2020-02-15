@@ -1,0 +1,45 @@
+main {
+  display: grid;
+  grid-template-columns: 30% 30% 40%;
+}
+
+article {
+  grid-column: span 2;
+  grid-row: 1 / 2;
+  margin: auto;
+}
+
+aside {
+  grid-column: 3;
+  grid-row: 1 / 2;
+
+
+}
+
+.warrior-pics {
+  width: 100%;
+}
+
+#articleTitle{
+  text-align: center;
+}
+
+#pageTitle {
+  display: inline;
+  font-size: 5em;
+}
+
+#navList {
+  border: 0;
+  display: flex;
+  list-style-type: none;
+  margin: 0.5em 0em 0.9em 0;
+  min-height: 2em;
+  padding: 0;
+}
+
+#navList li {
+  border: solid;
+  display: inline-block;
+  flex: 1 auto;
+}
