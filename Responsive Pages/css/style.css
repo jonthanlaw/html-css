@@ -1,0 +1,41 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  overflow-x:hidden;
+}
+
+header{
+  background-image: url("../photo/perspective.jpg");
+  background-size:cover;
+  color: white;
+  height:30rem;
+
+}
+
+
+.homelink{
+display:inline-block;
+}
+
+
+.homelink__icon{
+  width:3rem;
+}
+
+.homelink__textlink{
+  color:white;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.pageTitle{
+  text-align: center;
+}
+
+.pageTitle__title{
+  font-size: 2.2rem;
+}

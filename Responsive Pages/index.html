@@ -5,7 +5,7 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="initial-scale=1.0, width=device-width">
   <meta name="description" content="Affordable and professional Web Design">
   <meta name="keywords" content="web design, affordable web design, professional web design">
   <meta name="author" content="Jonathan Law">
@@ -19,12 +19,14 @@
   <!-- Top Section with navigation and introduction -->
   <header>
     <!-- Navigation links at top -->
-    <nav>
-      <a href="#">
-        <img src="icon/rocket.png" alt="rocket">
-      </a>
-      <a href="#">StartUp
-      </a>
+    <nav class="nav">
+      <div class="homelink">
+        <a class="homelinks__iconlink" href="#">
+          <img class="homelink__icon" src="icon/business.png" alt="rocket">
+        </a>
+        <a class="homelink__textlink" href="#">StartUp
+        </a>
+      </div>
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">Services</a></li>
@@ -36,8 +38,8 @@
       </ul>
     </nav>
     <!-- Introduction and title -->
-    <div>
-      <h1>ENTREPRENEUR
+    <div class="pageTitle">
+      <h1 class="pageTitle__title">ENTREPRENEUR
       </h1>
       <p>Start, run, and grow your business.
       </p>
@@ -219,6 +221,10 @@
         <a href="#" class="fa fa-twitter"></a>
       </div>
     </section>
+
+    <section>
+    </section>
+
 
   </main>
 
