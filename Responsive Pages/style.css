@@ -10,36 +10,38 @@ body {
 
 header {
   background-image: url("photo/perspective.jpg");
+    background-position: 100%;
   background-size: cover;
-  height: 40rem;
+  height: fit-content;
+  min-height: 25rem;
+  padding-bottom: 5rem;
 }
 
-.homelink{
+.homelink {
   align-items: center;
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   padding: 0.5rem;
 }
 
- .homelink__icon {
+.homelink__icon {
   width: 2.7rem;
 }
 
 .homelink__textlink {
-  color: 	#E8E8E8;
+  color: #E8E8E8;
   font-size: 2rem;
   font-weight: bold;
   text-decoration: none;
-
 }
 
-.homelink__activemenu{
-  display:none;
+.homelink__activemenu {
+  display: none;
   background-color: red
 }
 
-.homelink__dropdownanchor{
-  margin-left:auto;
+.homelink__dropdownanchor {
+  margin-left: auto;
 }
 
 .homelink__menuicon {
@@ -50,18 +52,35 @@ header {
   width: 2rem;
 }
 
-
-.menu{
-  display:none;
-    flex: 0 0 100%;
+.menu {
+  display: none;
+  flex: 0 0 100%;
 }
 
-.menu:hover{
-  display:block;
+.menu:hover {
+  display: block;
 }
 
-.homelink__nonactivemenu:hover ~ .menu{
-  display:block;
+.homelink__nonactivemenu:hover ~ .menu {
+  display: block;
+}
+
+.fade-in{
+  opacity: 1;
+animation-name: fadeInOpacity;
+animation-iteration-count: 1;
+animation-timing-function: ease-in;
+animation-duration: 0.3s
+
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 /* Add active dropdown menu button
 
@@ -73,7 +92,6 @@ header {
   display:none;
 }
 */
-
 /* Active dropdown hover and active effects
 
 .homelink__activemenu:hover ~ .menu{
@@ -94,30 +112,51 @@ header {
 }
 
 */
-.menu__ul{
+.menu__ul {
   margin: 0.5rem;
 }
 
-.menu__li{
+.menu__li {
   list-style: none;
 }
 
-.menu__link{
-  color:orange;
+.menu__link {
+  color: orange;
   font-size: 2rem;
   text-decoration: none;
 }
 
-.menu__link:hover{
-  color:red;
+.menu__link:hover {
+  color: red;
 }
 
-
 .pageTitle {
-  color: 	#E8E8E8;
+  color: #E8E8E8;
+  padding-bottom: 3rem;
+  padding-top: 5rem;
   text-align: center;
 }
 
 .pageTitle__title {
   font-size: 2.2rem;
+}
+
+.pageTitle_slogan {
+  font-size: 1.1rem;
+}
+
+.btn--readmore {
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  color: white;
+  font-family: 'Raleway';
+  font-weight: bolder;
+  line-height: 16px;
+  padding: 15px 32px;
+}
+
+.btn--readmore:hover{
+  background:white;
+  color: black;
 }
