@@ -160,3 +160,10 @@ animation-duration: 0.3s
   background:white;
   color: black;
 }
+
+
+
+.intro{
+  padding: 2rem 0.5rem 0.5rem;
+  text-align: center;
+}
