@@ -10,7 +10,7 @@ body {
 
 header {
   background-image: url("photo/perspective.jpg");
-    background-position: 100%;
+  background-position: 100%;
   background-size: cover;
   height: fit-content;
   min-height: 25rem;
@@ -61,27 +61,28 @@ header {
   display: block;
 }
 
-.homelink__nonactivemenu:hover ~ .menu {
+.homelink__nonactivemenu:hover~.menu {
   display: block;
 }
 
-.fade-in{
+.fade-in {
   opacity: 1;
-animation-name: fadeInOpacity;
-animation-iteration-count: 1;
-animation-timing-function: ease-in;
-animation-duration: 0.3s
-
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.3s
 }
 
 @keyframes fadeInOpacity {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
+
 /* Add active dropdown menu button
 
 .homelink__nonactivemenu:active ~ .homelink__activemenu{
@@ -156,14 +157,46 @@ animation-duration: 0.3s
   padding: 15px 32px;
 }
 
-.btn--readmore:hover{
-  background:white;
+.btn--readmore:hover {
+  background: white;
   color: black;
 }
 
-
-
-.intro{
-  padding: 2rem 0.5rem 0.5rem;
+.intro {
+  padding: 2rem 0.5rem 2rem 0.5rem;
   text-align: center;
+}
+
+.service {
+  background-color: #E0E0E0;
+  display: grid;
+  padding-bottom: 3rem;
+
+}
+
+.service__title {
+  font-size: 2.5rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.service__item {
+  margin: auto;
+  padding: 1rem;
+
+}
+
+.service__icon {
+  background-color: #E0E0E0;
+  border: 1px solid #585858;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  padding: 1.5rem;
+  width: 3rem;
+  float: left;
+}
+
+.service__itemtitle{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
