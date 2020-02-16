@@ -119,8 +119,7 @@ header {
   margin: 0.5rem;
 }
 
-.menu__li {
-}
+.menu__li {}
 
 .menu__link {
   color: orange;
@@ -231,18 +230,17 @@ header {
   padding: 0.2rem;
 }
 
-li.about__listitem:before{
+li.about__listitem:before {
   content: '\1F947';
 }
 
-
 /*About Bootstrap template */
-.aboutTemp__title{
+.aboutTemp__title {
   font-size: 1.5rem;
   padding-bottom: 0.5rem;
 }
 
-.aboutTemp__desc{
+.aboutTemp__desc {
   padding: 0.5rem;
 }
 
@@ -254,6 +252,44 @@ li.about__listitem:before{
   padding: 0.2rem;
 }
 
-li.aboutTemp__listItem:before{
+li.aboutTemp__listItem:before {
   content: '\1F947';
+}
+
+.aboutTemp__listDesc{
+  padding: 0.5rem;
+}
+
+/* Accordion Section (collapsible list) */
+.accordion {
+  margin: 0.5rem;
+}
+
+.accordion_expander {
+  background-color: #D8D8D8;
+  border: 1px solid #989898;
+  display: flex;
+  padding: 0.5rem;
+}
+
+.accordion__btn {
+  color: black;
+  list-style: none;
+  text-decoration: none;
+}
+
+.accordion__expandIcon {
+  width: 1rem;
+  margin-left: auto;
+}
+
+.accordion__info {
+  background-color: #F0F0F0;
+  overflow: hidden;
+  transition: max-height 0.3s;
+  max-height: 0
+}
+
+.accordion__info:before{
+  opacity:0;
 }
