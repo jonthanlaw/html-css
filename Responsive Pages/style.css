@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+header {
+  background-image: url("photo/perspective.jpg");
+  background-size: cover;
+  height: 30rem;
+}
+
+ .homelink__icon {
+  width: 3.2rem;
+}
+
+.homelink__textlink {
+  color: 	#E8E8E8;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+
+.pageTitle {
+  color: 	#E8E8E8;
+  text-align: center;
+}
+
+.pageTitle__title {
+  font-size: 2.2rem;
+}
+
+.nav__dropdownimg {
+  background-color: #DCDCDC;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 0.5rem 0.5rem;
+  width: 2rem;
+}
