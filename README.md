@@ -1,2 +1,3 @@
 # Nonresponsive-Projects
-First attempts at projects on own
+First attempts at projects on own.
+No tutorials.

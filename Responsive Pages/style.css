@@ -17,6 +17,7 @@ header {
   padding-bottom: 5rem;
 }
 
+/*Section for links at top of page */
 .homelink {
   align-items: center;
   display: flex;
@@ -52,6 +53,7 @@ header {
   width: 2rem;
 }
 
+/* Drop down menu */
 .menu {
   display: none;
   flex: 0 0 100%;
@@ -118,7 +120,6 @@ header {
 }
 
 .menu__li {
-  list-style: none;
 }
 
 .menu__link {
@@ -131,6 +132,7 @@ header {
   color: red;
 }
 
+/* Title information at header */
 .pageTitle {
   color: #E8E8E8;
   padding-bottom: 3rem;
@@ -162,16 +164,17 @@ header {
   color: black;
 }
 
+/* Introduction section */
 .intro {
   padding: 2rem 0.5rem 2rem 0.5rem;
   text-align: center;
 }
 
+/* Service information section */
 .service {
   background-color: #E0E0E0;
   display: grid;
   padding-bottom: 3rem;
-
 }
 
 .service__title {
@@ -183,7 +186,6 @@ header {
 .service__item {
   margin: auto;
   padding: 1rem;
-
 }
 
 .service__icon {
@@ -196,7 +198,62 @@ header {
   float: left;
 }
 
-.service__itemtitle{
+.service__itemtitle {
   font-size: 1.5rem;
   margin-bottom: 1rem;
+}
+
+/* About section */
+.about__img {
+  width: 100%
+}
+
+.about__title {
+  font-size: 2.5rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.about__desc {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.about__imgdesc {
+  padding: 1rem 0.5rem 1rem 0.5rem;
+}
+
+.about__list {
+  padding-bottom: 1rem;
+}
+
+.about__listitem {
+  padding: 0.2rem;
+}
+
+li.about__listitem:before{
+  content: '\1F947';
+}
+
+
+/*About Bootstrap template */
+.aboutTemp__title{
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.aboutTemp__desc{
+  padding: 0.5rem;
+}
+
+.aboutTemp__list {
+  padding-bottom: 1rem;
+}
+
+.aboutTemp__listItem {
+  padding: 0.2rem;
+}
+
+li.aboutTemp__listItem:before{
+  content: '\1F947';
 }
