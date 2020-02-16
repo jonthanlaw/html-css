@@ -33,26 +33,23 @@ header {
 
 }
 
-.pageTitle {
-  color: 	#E8E8E8;
-  text-align: center;
-}
-
-.pageTitle__title {
-  font-size: 2.2rem;
+.homelink__activemenu{
+  display:none;
+  background-color: red
 }
 
 .homelink__dropdownanchor{
   margin-left:auto;
 }
 
-.homelink__dropdownimg {
+.homelink__menuicon {
   background-color: #E8E8E8;
   border: 1px solid transparent;
   border-radius: 10px;
   padding: 0.5rem 0.5rem;
   width: 2rem;
 }
+
 
 .menu{
   display:none;
@@ -63,10 +60,40 @@ header {
   display:block;
 }
 
-.homelink__dropdownanchor:hover ~ .menu{
+.homelink__nonactivemenu:hover ~ .menu{
+  display:block;
+}
+/* Add active dropdown menu button
+
+.homelink__nonactivemenu:active ~ .homelink__activemenu{
+  display: block;
+}
+
+.homelink__nonactivemenu:hover{
+  display:none;
+}
+*/
+
+/* Active dropdown hover and active effects
+
+.homelink__activemenu:hover ~ .menu{
   display:block;
 }
 
+
+.homelink__activemenu:active ~ .menu{
+  display:none;
+}
+
+.homelink__activemenu:active ~ .homelink__nonactivemenu{
+  display: block;
+}
+
+.homelink__activemenu:active{
+  display:none;
+}
+
+*/
 .menu__ul{
   margin: 0.5rem;
 }
@@ -83,4 +110,14 @@ header {
 
 .menu__link:hover{
   color:red;
+}
+
+
+.pageTitle {
+  color: 	#E8E8E8;
+  text-align: center;
+}
+
+.pageTitle__title {
+  font-size: 2.2rem;
 }
