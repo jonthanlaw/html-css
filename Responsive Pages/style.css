@@ -21,7 +21,6 @@ header {
 .homelink {
   align-items: center;
   display: flex;
-
   flex-wrap: wrap;
   padding: 0.5rem;
 }
@@ -37,10 +36,9 @@ header {
   text-decoration: none;
 }
 
-.homelink__checkbox{
+.homelink__checkbox {
   margin-left: auto;
 }
-
 
 .homelink__menuicon {
   background-color: #E8E8E8;
@@ -48,9 +46,7 @@ header {
   border-radius: 10px;
   padding: 0.5rem 0.5rem;
   width: 2rem;
-
 }
-
 
 /*
 .menu:hover {
@@ -109,7 +105,6 @@ header {
 }
 
 */
-
 /* Drop down menu */
 .menu {
   flex: 0 0 100%;
@@ -134,7 +129,6 @@ header {
 }
 
 /* Drop drop effects */
-
 #dropdown, #dropdownitems {
   display: none;
 }
@@ -161,6 +155,7 @@ header {
     opacity: 1;
   }
 }
+
 /* Title information at header */
 .pageTitle {
   color: #E8E8E8;
@@ -168,7 +163,6 @@ header {
   padding-top: 2.5rem;
   text-align: center;
 }
-
 
 .pageTitle__title {
   font-size: 2.2rem;
@@ -246,7 +240,7 @@ header {
 
 .about__desc {
   text-align: center;
-  padding-bottom: 1rem;
+  padding: 0 0.4rem 1rem 0.4rem;
 }
 
 .about__imgdesc {
@@ -342,4 +336,82 @@ li.aboutTemp__listItem:before {
 
 #collapse3:checked~#collapseContent3 {
   display: block;
+}
+
+/*Standalone section saying "Amazing Free Bootstrap Template" */
+.standalonePhrase {
+  align-items: center;
+  background-color: #D6D6D6;
+  display: flex;
+  font-size: 2rem;
+  height: 20rem;
+  margin-top: 3rem;
+  justify-content: center;
+}
+
+.standalonePhrase__words {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+/*Introduce team members */
+.team__title {
+  font-size: 2.5rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.team__desc {
+  font-size: 1.3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.team__memberContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team__member {
+  margin: 5%;
+  width: 40%;
+}
+
+.team__img {
+  width: 100%
+}
+
+.team__name {
+  font-size: 1.2rem;
+  display: inline-block;
+  padding-top: 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+.team__position {
+  color: #9a9a9a;
+  font-size: 1rem;
+  display: inline-block;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+.team__icon {
+  background-color: #eee;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: white;
+  box-sizing: border-box;
+  color: #565656;
+  padding: 1vw;
+  width: 50%;
+  text-align: center;
+}
+
+.team__icon{
+
 }
