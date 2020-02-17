@@ -21,6 +21,7 @@ header {
 .homelink {
   align-items: center;
   display: flex;
+
   flex-wrap: wrap;
   padding: 0.5rem;
 }
@@ -36,14 +37,10 @@ header {
   text-decoration: none;
 }
 
-.homelink__activemenu {
-  display: none;
-  background-color: red
-}
-
-.homelink__dropdownanchor {
+.homelink__checkbox{
   margin-left: auto;
 }
+
 
 .homelink__menuicon {
   background-color: #E8E8E8;
@@ -51,14 +48,11 @@ header {
   border-radius: 10px;
   padding: 0.5rem 0.5rem;
   width: 2rem;
+
 }
 
-/* Drop down menu */
-.menu {
-  display: none;
-  flex: 0 0 100%;
-}
 
+/*
 .menu:hover {
   display: block;
 }
@@ -115,6 +109,12 @@ header {
 }
 
 */
+
+/* Drop down menu */
+.menu {
+  flex: 0 0 100%;
+}
+
 .menu__ul {
   margin: 0.5rem;
 }
@@ -133,13 +133,42 @@ header {
   color: red;
 }
 
+/* Drop drop effects */
+
+#dropdown, #dropdownitems {
+  display: none;
+}
+
+#dropdown:checked~#dropdownitems {
+  display: block;
+}
+
+/*Drop down fade in effects*/
+.fade-in {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.3s
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
 /* Title information at header */
 .pageTitle {
   color: #E8E8E8;
   padding-bottom: 3rem;
-  padding-top: 5rem;
+  padding-top: 2.5rem;
   text-align: center;
 }
+
 
 .pageTitle__title {
   font-size: 2.2rem;
