@@ -119,7 +119,9 @@ header {
   margin: 0.5rem;
 }
 
-.menu__li {}
+.menu__li {
+  list-style-type: none;
+}
 
 .menu__link {
   color: orange;
@@ -256,7 +258,7 @@ li.aboutTemp__listItem:before {
   content: '\1F947';
 }
 
-.aboutTemp__listDesc{
+.aboutTemp__listDesc {
   padding: 0.5rem;
 }
 
@@ -284,12 +286,31 @@ li.aboutTemp__listItem:before {
 }
 
 .accordion__info {
-  background-color: #F0F0F0;
-  overflow: hidden;
-  transition: max-height 0.3s;
-  max-height: 0
+  background-color: #E8E8E8;
+  padding: 0.7rem;
 }
 
-.accordion__info:before{
-  opacity:0;
+/* Code for hide/show */
+#collapse1, #collapseContent1 {
+  display: none;
+}
+
+#collapse1:checked~#collapseContent1 {
+  display: block;
+}
+
+#collapse2, #collapseContent2 {
+  display: none;
+}
+
+#collapse2:checked~#collapseContent2 {
+  display: block;
+}
+
+#collapse3, #collapseContent3 {
+  display: none;
+}
+
+#collapse3:checked~#collapseContent3 {
+  display: block;
 }
