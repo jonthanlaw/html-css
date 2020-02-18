@@ -442,6 +442,7 @@ li.aboutTemp__listItem:before {
 #portfolio__project3 {
   background-image: url(../portfolio/portfolio_project3.jpg);
 }
+
 #portfolio__project4 {
   background-image: url(../portfolio/portfolio_project4.jpg);
 }
@@ -467,7 +468,6 @@ li.aboutTemp__listItem:before {
 }
 
 /* Portfolio styling */
-
 .portfolio__img {
   background-position: 50% 30%;
   background-size: cover;
@@ -492,9 +492,47 @@ li.aboutTemp__listItem:before {
   text-align: center;
 }
 
+/*
+
+Labels for different portfolios -- note appdevlabel forced
+to #cacaca initially --  appdev has checked/not checked reversed
+
+*/
+
+.portfolio__label {
+  background-color: #F7780F;
+  border-style: solid;
+  border-width: 1.5px;
+  color: white;
+  display: block;
+  font-size: 0.8rem;
+  margin-bottom: 0.3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+#portfolio__web:not(:checked)~#portfolio__webLabel {
+  background-color: #cacaca;
+}
+
+
+#portfolio__appdev:checked~#portfolio__appdevLabel {
+  background-color: #cacaca;
+}
+
+#portfolio__mobileapp:not(:checked)~#portfolio__mobileappLabel {
+  background-color: #cacaca;
+}
+
 /* Show and Hide portfolio images */
 /*web projects */
 #portfolio__web, .portfolio__webproj {
+  opacity: 1;
+  transform: scale(1);
+  visibility: visible;
+
   opacity: 0;
   transform: scale(0);
   visibility: hidden;
@@ -505,7 +543,7 @@ li.aboutTemp__listItem:before {
   margin-right: auto;
 }
 
-#portfolio__web:not(:checked)~.portfolio__webproj {
+#portfolio__web:checked~.portfolio__webproj {
   opacity: 1;
   transform: scale(1);
   visibility: visible;
@@ -514,6 +552,10 @@ li.aboutTemp__listItem:before {
 
 /* app dev projections */
 #portfolio__appdev, .portfolio__appdevproj {
+  opacity: 1;
+  transform: scale(1);
+  visibility: visible;
+  position: relative;
   opacity: 0;
   transform: scale(0);
   visibility: hidden;
@@ -533,6 +575,10 @@ li.aboutTemp__listItem:before {
 
 /* mobile app projections */
 #portfolio__mobileapp, .portfolio__mobileproj {
+  opacity: 1;
+  transform: scale(1);
+  visibility: visible;
+
   opacity: 0;
   transform: scale(0);
   visibility: hidden;
@@ -543,7 +589,7 @@ li.aboutTemp__listItem:before {
   margin-right: auto;
 }
 
-#portfolio__mobileapp:not(:checked)~.portfolio__mobileproj {
+#portfolio__mobileapp:checked~.portfolio__mobileproj {
   opacity: 1;
   transform: scale(1);
   visibility: visible;
