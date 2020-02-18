@@ -1,3 +1,2 @@
-# Nonresponsive-Projects
-First attempts at projects on own.
-No tutorials.
+First Attempt at responsive project without tutorials.
+HTML and CSS only.
