@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background-image: url("photo/perspective.jpg");
+  background-image: url("../photo/perspective.jpg");
   background-position: 100%;
   background-size: cover;
   height: fit-content;
@@ -432,19 +432,42 @@ li.aboutTemp__listItem:before {
 
 /*Portfolio Items */
 #portfolio__project1 {
-  background-image: url(portfolio/portfolio_project1.jpg);
+  background-image: url(../portfolio/portfolio_project1.jpg);
 }
 
 #portfolio__project2 {
-  background-image: url(portfolio/portfolio_project2.jpg);
+  background-image: url(../portfolio/portfolio_project2.jpg);
 }
 
 #portfolio__project3 {
-  background-image: url(portfolio/portfolio_project3.jpg);
+  background-image: url(../portfolio/portfolio_project3.jpg);
 }
 #portfolio__project4 {
-  background-image: url(portfolio/portfolio_project4.jpg);
+  background-image: url(../portfolio/portfolio_project4.jpg);
 }
+
+#portfolio__project5 {
+  background-image: url(../portfolio/portfolio_project5.jpg);
+}
+
+#portfolio__project6 {
+  background-image: url(../portfolio/portfolio_project6.jpg);
+}
+
+#portfolio__project7 {
+  background-image: url(../portfolio/portfolio_project7.jpg);
+}
+
+#portfolio__project8 {
+  background-image: url(../portfolio/portfolio_project8.jpg);
+}
+
+#portfolio__project9 {
+  background-image: url(../portfolio/portfolio_project9.jpg);
+}
+
+/* Portfolio styling */
+
 .portfolio__img {
   background-position: 50% 30%;
   background-size: cover;
