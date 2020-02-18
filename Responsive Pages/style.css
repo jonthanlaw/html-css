@@ -439,6 +439,12 @@ li.aboutTemp__listItem:before {
   background-image: url(portfolio/portfolio_project2.jpg);
 }
 
+#portfolio__project3 {
+  background-image: url(portfolio/portfolio_project3.jpg);
+}
+#portfolio__project4 {
+  background-image: url(portfolio/portfolio_project4.jpg);
+}
 .portfolio__img {
   background-position: 50% 30%;
   background-size: cover;
@@ -464,7 +470,8 @@ li.aboutTemp__listItem:before {
 }
 
 /* Show and Hide portfolio images */
-#portfolio__web, #portfolio__project1 {
+/*web projects */
+#portfolio__web, .portfolio__webproj {
   opacity: 0;
   transform: scale(0);
   visibility: hidden;
@@ -475,21 +482,47 @@ li.aboutTemp__listItem:before {
   margin-right: auto;
 }
 
-#portfolio__web:not(:checked)~#portfolio__project1 {
+#portfolio__web:not(:checked)~.portfolio__webproj {
   opacity: 1;
   transform: scale(1);
   visibility: visible;
   position: relative;
 }
 
-#portfolio__appdev, #portfolio__project2 {
+/* app dev projections */
+#portfolio__appdev, .portfolio__appdevproj {
   opacity: 0;
   transform: scale(0);
   visibility: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#portfolio__appdev:not(:checked)~#portfolio__project2 {
+#portfolio__appdev:not(:checked)~.portfolio__appdevproj {
   opacity: 1;
   transform: scale(1);
   visibility: visible;
+  position: relative;
+}
+
+/* mobile app projections */
+#portfolio__mobileapp, .portfolio__mobileproj {
+  opacity: 0;
+  transform: scale(0);
+  visibility: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#portfolio__mobileapp:not(:checked)~.portfolio__mobileproj {
+  opacity: 1;
+  transform: scale(1);
+  visibility: visible;
+  position: relative;
 }
