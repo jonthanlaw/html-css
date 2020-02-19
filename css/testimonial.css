@@ -16,6 +16,8 @@
   right: calc(100%/4);
 }
 
+/* Slider Functionality */
+
 #slider1, #slider2, #slider3 {
   display: none;
 }
@@ -58,17 +60,10 @@
   right: calc(100%/4*3);
 }
 
-/*
-#slider2:checked ~ #slider_img_2
-{
-  display: block;
-}
-#slider3:checked ~ #slider_img_3
-{
-  display: block;
-} */
-/* styling components */
+/*Slider Style */
+
 .dots {
+  background-color: gray;
   border-color: purple;
   border-radius: 50%;
   border-style: solid;
@@ -77,82 +72,82 @@
   z-index: 2;
   height: 1rem;
   width: 1rem;
-  background-color: gray;
-
   bottom: 0;
   margin-bottom: 2rem;
 }
-#dot1{
+
+#dot1 {
   left: 0;
   /*50% of screen (left side of dot to left side of screen)
 minus half the width of dot (to perfectly center)
 minus width and 1rem (to offset left of center dot)*/
-  margin-left: calc(calc(100%/4/2)
-  - calc(1rem/2)
-  - 1rem
-  - 1rem);
+  margin-left: calc(calc(100%/4/2) - calc(1rem/2) - 1rem - 1rem);
 }
 
-#dot2{
+#dot2 {
   left: 0;
-
   /*50% of screen (left side of dot to left side of screen)
 minus half the width of dot (to perfectly center) */
   margin-left: calc(calc(100%/4/2) - calc(1rem/2));
 }
-#dot3{
-  left: 0;
 
+#dot3 {
+  left: 0;
   /*50% of screen (left side of dot to left side of screen)
 minus half the width of dot (to perfectly center)
 plus width and 1rem (to offset right of center dot)*/
-  margin-left: calc(calc(100%/4/2)
-  - calc(1rem/2)
-  + 1rem
-  + 1rem);
+  margin-left: calc(calc(100%/4/2) - calc(1rem/2) + 1rem + 1rem);
 }
 
-.testimonial__box0 {
+.testimonial__box{
+  overflow:hidden;
+}
+
+.testimonial--box0 {
   height: 30rem;
   width: calc(100%/4);
-  background-color: gray;
+
 }
 
-.testimonial__box1 {
+.testimonial--box1 {
   height: 30rem;
   width: calc(100%/4);
-  background-color: red;
+
 }
 
-.testimonial__box2 {
+.testimonial--box2 {
   height: 30rem;
   width: calc(100%/4);
-  background-color: blue;
+
 }
 
-.testimonial__box3 {
+.testimonial--box3 {
   height: 30rem;
   width: calc(100%/4);
-  background-color: green;
+
 }
 
-/* .testimonial__img {
-  position: absolute;
-} */
-/* #i1, #i2, #i3 {
-  display: none;
-} */
-/*
-.testimonial__imgcontainer {
-  width: 100%;
-  height: 100%;
-  position: relative;
-   transition: left 2s;
-  -webkit-transition: left 2s;
-  -moz-transition: left 2s;
-  -o-transition: left 2s;
+
+.testimonial__img{
+height: 25%;
+width: 25%;
 }
-*/
+
+.testimonial__img--1,
+.testimonial__img--2,
+.testimonial__img--3{
+  max-width:100%;
+  max-height: 100%;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
 #fill {
   height: 100rem;
 }
