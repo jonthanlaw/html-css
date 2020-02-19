@@ -1,12 +1,103 @@
 .testimonial {
-  width: 100%;
-  min-height: 25rem;
-  /* overflow: hidden; */
+  width: 400%;
+  height: 100vw;
+  position:relative;
+  overflow: hidden;
 }
 
-#i1, #i2, #i3 {
-  /* display: none; */
+.testimonial__imgcontainer{
+  width: 100%;
+  height: 100%;
+  position: relative;
+   transition: all 3s ease;
+  -webkit-transition: all 3s ease;
+  -moz-transition: all 3s ease ;
+  -o-transition: all 3s ease ;
+  right: calc(100%/4);
+
 }
+
+
+#slider_img_0,#slider_img_1,#slider_img_2,#slider_img_3{
+float: left;
+}
+
+
+
+
+ }
+#slider1:checked ~ .testimonial__imgcontainer
+{
+  right: calc(100%/4*1);
+}
+
+#slider2:checked ~ .testimonial__imgcontainer
+{
+  right: calc(100%/4*2);
+}
+
+#slider3:checked ~ .testimonial__imgcontainer
+{
+  right: calc(100%/4*3);
+}
+
+/*
+#slider2:checked ~ #slider_img_2
+{
+  display: block;
+}
+#slider3:checked ~ #slider_img_3
+{
+  display: block;
+} */
+
+
+
+/* styling components */
+
+
+
+.dots {
+  /* margin: 2.5rem 0.5rem 2.5rem 0.5rem; */
+
+  display: block;
+  height: 2rem;
+  width: 2rem;
+  background-color: black;
+}
+.box0 {
+  height: 30rem;
+  width: calc(100%/4);
+  background-color: gray;
+}
+
+
+.box1 {
+  height: 30rem;
+  width: calc(100%/4);
+  background-color: red;
+}
+
+.box2 {
+  height: 30rem;
+  width: calc(100%/4);
+  background-color: blue;
+}
+
+.box3 {
+  height: 30rem;
+  width: calc(100%/4);
+  background-color: green;
+}
+/* .testimonial__img {
+  position: absolute;
+} */
+
+
+
+/* #i1, #i2, #i3 {
+  display: none;
+} */
 
 /*
 .testimonial__imgcontainer {
@@ -20,61 +111,11 @@
 }
 */
 
-.testimonial__img {
-  position: absolute;
-}
-
-#one{
-  display: block;
-}
-#two{
-  display: none;
-}
-#three{
-  display: none;
-}
-/*
-.slidebuttons {
-  height: 7rem;
-  width: 100%;
-  z-index: 5;
-  text-align: center;
-} */
-
-#i1:checked ~ #one,
-/* #i2:checked ~ #two,
-#i3:checked ~ #three{ */
-{
-  display: none;
-}
 
 
-.dots {
-  margin: 2.5rem 0.5rem 2.5rem 0.5rem;
-  position: relative;
-  display: inline-block;
-  height: 2rem;
-  width: 2rem;
-  background-color: black;
-}
 
-.box1 {
-  height: 30rem;
-  width: 100%;
-  background-color: red;
-}
 
-.box2 {
-  height: 30rem;
-  width: 100%;
-  background-color: blue;
-}
 
-.box3 {
-  height: 30rem;
-  width: 100%;
-  background-color: green;
-}
 
 #fill {
   height: 100rem;
