@@ -39,26 +39,36 @@
   background-color: #F7780F;
   border: 1px solid #F7780F;
   color: white;
-  padding: 0.5rem 3rem;
+  display: block;
+  padding: 0.5rem 3rem 0.5rem 3rem;
   margin-left: calc(10% - 1rem);
+  margin-right: calc(10% - 1rem);
   margin-top: 1rem;
+  text-align: center;
+  text-decoration: none;
+  width: 4rem;
 }
 
-.contact__desc{
+.contact__send:active{
+  border: 1px solid #04BD5B;
+  background-color: #04BD5B;
+}
+
+.contact__desc {
   color: #949494;
   margin-left: calc(10% - 1rem);
   margin-right: calc(10% - 1rem);
   padding-top: 1rem;
 }
 
- .contact__infocontain{
-   color: #949494;
-   margin-left: calc(10% - 1rem);
-   margin-right: calc(10% - 1rem);
-   padding-top: 1.5rem;
-   padding-bottom: 2rem;
- }
+.contact__infocontain {
+  color: #949494;
+  margin-left: calc(10% - 1rem);
+  margin-right: calc(10% - 1rem);
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
 
- .contact__info{
-   padding-top: 0.5rem;
- }
+.contact__info {
+  padding-top: 0.5rem;
+}
