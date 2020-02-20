@@ -1,13 +1,20 @@
 
 .testimonial__title{
 background-color: #D6D6D6;
-padding-top: 3rem;
-padding-bottom: 3rem;
+/* padding-top: 3rem;
+padding-bottom: 3rem; */
   font-size: 2rem;
   text-align: center;
+  margin: 0;
 }
 
+#test{
 
+  height: 10rem;
+  background-color: #D6D6D6;
+  margin: 0;
+
+}
 
 .testimonial {
   background-color: #D6D6D6;
@@ -16,6 +23,7 @@ padding-bottom: 3rem;
   max-height: 40rem;
   position: relative;
   overflow: hidden;
+  margin: 0;
 
 }
 
