@@ -1,19 +1,9 @@
-
-.testimonial__title{
-background-color: #D6D6D6;
-/* padding-top: 3rem;
-padding-bottom: 3rem; */
+.testimonial__title {
+  background-color: #D6D6D6;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   font-size: 2rem;
   text-align: center;
-  margin: 0;
-}
-
-#test{
-
-  height: 10rem;
-  background-color: #D6D6D6;
-  margin: 0;
-
 }
 
 .testimonial {
@@ -23,8 +13,6 @@ padding-bottom: 3rem; */
   max-height: 40rem;
   position: relative;
   overflow: hidden;
-  margin: 0;
-
 }
 
 .testimonial__imgcontainer {
@@ -39,7 +27,6 @@ padding-bottom: 3rem; */
 }
 
 /* Slider Functionality */
-
 #slider1, #slider2, #slider3 {
   display: none;
 }
@@ -83,7 +70,6 @@ padding-bottom: 3rem; */
 }
 
 /*Slider Style */
-
 .dots {
   background-color: #BEBEBE;
   border-color: gray;
@@ -121,73 +107,61 @@ plus width and 1rem (to offset right of center dot)*/
   margin-left: calc(calc(100%/4/2) - calc(1rem/2) + 1rem + 1rem);
 }
 
-.testimonial__box{
-  position:;
+.testimonial__box {
+  position: ;
 }
 
 .testimonial--box0 {
   height: 30rem;
   width: calc(100%/4);
-
 }
 
 .testimonial--box1 {
   height: 30rem;
   width: calc(100%/4);
-
 }
 
 .testimonial--box2 {
   height: 30rem;
   width: calc(100%/4);
-
 }
 
 .testimonial--box3 {
   height: 30rem;
   width: calc(100%/4);
-
 }
 
-
-.testimonial__img{
-height: 25%;
-width: 25%;
-margin: auto;
-margin-top: 10%;
-position: relative;
+.testimonial__img {
+  height: 35vw;
+  width: 35%;
+  margin: auto;
+  margin-top: 10%;
+  position: relative;
 }
 
 .testimonial__img--1,
 .testimonial__img--2,
-.testimonial__img--3{
-
+.testimonial__img--3 {
   border-radius: 50%;
-  max-width:100%;
+  max-width: 100%;
   max-height: 100%;
-
-
+  margin: auto;
 }
 
-
-
-.testimonial__text{
+.testimonial__text {
   font-size: 1.3rem;
   font-style: italic;
-  padding: 0 0.5rem 0 0.5rem;
+  padding: 10% 0.5rem 0 0.5rem;
   text-align: center;
 }
 
-.testimonial__name{
+.testimonial__name {
   color: #505050;
   font-size: 1rem;
+  font-style: italic;
+  padding-top: 10%;
   text-align: center;
-
 }
-
-
-
-
 
 #fill {
   height: 100rem;
