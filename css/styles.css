@@ -417,6 +417,7 @@ li.aboutTemp__listItem:before {
   padding: 1vw;
   width: 50%;
   text-align: center;
+  text-decoration: none;
 }
 
 /* Portfolio Projects */
