@@ -12,7 +12,7 @@
   height: 130vw;
   max-height: 40rem;
   position: relative;
-  overflow: hidden;
+
 }
 
 .testimonial__imgcontainer {
@@ -24,6 +24,7 @@
   -moz-transition: all 0.7s ease-in;
   -o-transition: all 0.7s ease-in;
   right: calc(100%/4);
+  overflow: hidden;
 }
 
 /* Slider Functionality */
@@ -108,27 +109,30 @@ plus width and 1rem (to offset right of center dot)*/
 }
 
 .testimonial__box {
-  position: ;
 }
 
 .testimonial--box0 {
   height: 30rem;
   width: calc(100%/4);
+  overflow:hidden;
 }
 
 .testimonial--box1 {
   height: 30rem;
   width: calc(100%/4);
+  overflow:hidden;
 }
 
 .testimonial--box2 {
   height: 30rem;
   width: calc(100%/4);
+  overflow:hidden;
 }
 
 .testimonial--box3 {
   height: 30rem;
   width: calc(100%/4);
+  overflow:hidden;
 }
 
 .testimonial__img {
