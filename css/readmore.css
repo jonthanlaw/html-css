@@ -1,4 +1,6 @@
 
+/* Read more popup window */
+
 .readmore {
   background-color: rgba(0, 0, 0, .8);
   width: 100%;
@@ -47,6 +49,8 @@
 .readmore__paragraph{
   line-height: 1.5rem;
 }
+
+/* Read more popup effect */
 
 #readmore:target{
   opacity: 1;

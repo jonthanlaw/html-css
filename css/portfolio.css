@@ -63,10 +63,9 @@
 }
 
 /*
-
 Labels for different portfolios -- note appdevlabel forced
 to #cacaca initially --  appdev has checked/not checked reversed
-
+-this is to force it initially checked
 */
 
 .portfolio__label {
@@ -83,6 +82,8 @@ to #cacaca initially --  appdev has checked/not checked reversed
   text-align: center;
 }
 
+/* label checked colors */
+
 #portfolio__web:not(:checked)~#portfolio__webLabel {
   background-color: #cacaca;
 }
@@ -97,6 +98,7 @@ to #cacaca initially --  appdev has checked/not checked reversed
 }
 
 /* Show and Hide portfolio images */
+
 /*web projects */
 #portfolio__web, .portfolio__webproj {
   opacity: 1;
