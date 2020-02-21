@@ -1,0 +1,77 @@
+
+/*Introduce team members */
+.team__title {
+  font-size: 2.5rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.team__desc {
+  font-size: 1.3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.team__memberContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team__member {
+  margin: 5%;
+  width: 40%;
+}
+
+.team__img {
+  width: 100%
+}
+
+.team__name {
+  font-size: 1.2rem;
+  display: inline-block;
+  padding-top: 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+.team__position {
+  color: #9a9a9a;
+  font-size: 1rem;
+  display: inline-block;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+.team__icon {
+  background-color: #eee;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: white;
+  box-sizing: border-box;
+  color: #565656;
+  padding: 1vw;
+  width: 50%;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Portfolio Projects */
+.portfolio {
+  margin-bottom: 5rem;
+}
+
+.portfolio__title {
+  font-size: 2.5rem;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.portfolio__desc {
+  font-size: 1.3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}

@@ -1,0 +1,53 @@
+
+/* Accordion Section (collapsible list) */
+.accordion {
+  margin: 0.5rem;
+}
+
+.accordion_expander {
+  background-color: #D8D8D8;
+  border: 1px solid #989898;
+  display: flex;
+  padding: 0.5rem;
+}
+
+.accordion__btn {
+  color: black;
+  list-style: none;
+  text-decoration: none;
+}
+
+.accordion__expandIcon {
+  width: 1rem;
+  margin-left: auto;
+}
+
+.accordion__info {
+  background-color: #E8E8E8;
+  padding: 0.7rem;
+}
+
+/* Code for hide/show */
+#collapse1, #collapseContent1 {
+  display: none;
+}
+
+#collapse1:checked~#collapseContent1 {
+  display: block;
+}
+
+#collapse2, #collapseContent2 {
+  display: none;
+}
+
+#collapse2:checked~#collapseContent2 {
+  display: block;
+}
+
+#collapse3, #collapseContent3 {
+  display: none;
+}
+
+#collapse3:checked~#collapseContent3 {
+  display: block;
+}

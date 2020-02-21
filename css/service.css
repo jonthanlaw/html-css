@@ -1,0 +1,91 @@
+
+/* Service information section */
+.service {
+  background-color: #E0E0E0;
+  display: grid;
+  padding-bottom: 3rem;
+}
+
+.service__title {
+  font-size: 2.5rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.service__item {
+  margin: auto;
+  padding: 1rem;
+}
+
+.service__icon {
+  background-color: #E0E0E0;
+  border: 1px solid #585858;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  padding: 1.5rem;
+  width: 3rem;
+  float: left;
+}
+
+.service__itemtitle {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* About section */
+.about__img {
+  width: 100%
+}
+
+.about__title {
+  font-size: 2.5rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.about__desc {
+  text-align: center;
+  padding: 0 0.4rem 1rem 0.4rem;
+}
+
+.about__imgdesc {
+  padding: 1rem 0.5rem 1rem 0.5rem;
+}
+
+.about__list {
+  padding-bottom: 1rem;
+}
+
+.about__listitem {
+  padding: 0.2rem;
+}
+
+li.about__listitem:before {
+  content: '\1F947';
+}
+
+/*About Bootstrap template */
+.aboutTemp__title {
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.aboutTemp__desc {
+  padding: 0.5rem;
+}
+
+.aboutTemp__list {
+  padding-bottom: 1rem;
+}
+
+.aboutTemp__listItem {
+  padding: 0.2rem;
+}
+
+li.aboutTemp__listItem:before {
+  content: '\1F947';
+}
+
+.aboutTemp__listDesc {
+  padding: 0.5rem;
+}

@@ -1,0 +1,82 @@
+/*Section for links at top of page */
+.homelink {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+}
+
+.homelink__icon {
+  width: 2.7rem;
+}
+
+.homelink__textlink {
+  color: #E8E8E8;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.homelink__checkbox {
+  margin-left: auto;
+}
+
+.homelink__menuicon {
+  background-color: #E8E8E8;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 0.5rem 0.5rem;
+  width: 2rem;
+}
+
+*/
+/* Drop down menu */
+.menu {
+  flex: 0 0 100%;
+}
+
+.menu__ul {
+  margin: 0.5rem;
+}
+
+.menu__li {
+  list-style-type: none;
+}
+
+.menu__link {
+  color: orange;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  color: red;
+}
+
+/* Drop drop effects */
+#dropdown, #dropdownitems {
+  display: none;
+}
+
+#dropdown:checked~#dropdownitems {
+  display: block;
+}
+
+/*Drop down fade in effects*/
+.fade-in {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.3s
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

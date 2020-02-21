@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+header {
+  background-image: url("../photo/perspective.jpg");
+  background-position: 100%;
+  background-size: cover;
+  height: fit-content;
+  min-height: 25rem;
+  padding-bottom: 5rem;
+}

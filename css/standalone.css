@@ -1,0 +1,15 @@
+/*Standalone section saying "Amazing Free Bootstrap Template" */
+.standalonePhrase {
+  align-items: center;
+  background-color: #D6D6D6;
+  display: flex;
+  font-size: 2rem;
+  height: 20rem;
+  margin-top: 3rem;
+  justify-content: center;
+}
+
+.standalonePhrase__words {
+  padding: 0.5rem;
+  text-align: center;
+}

@@ -1,0 +1,166 @@
+
+
+/*Portfolio Items */
+#portfolio__project1 {
+  background-image: url(../portfolio/portfolio_project1.jpg);
+}
+
+#portfolio__project2 {
+  background-image: url(../portfolio/portfolio_project2.jpg);
+}
+
+#portfolio__project3 {
+  background-image: url(../portfolio/portfolio_project3.jpg);
+}
+
+#portfolio__project4 {
+  background-image: url(../portfolio/portfolio_project4.jpg);
+}
+
+#portfolio__project5 {
+  background-image: url(../portfolio/portfolio_project5.jpg);
+}
+
+#portfolio__project6 {
+  background-image: url(../portfolio/portfolio_project6.jpg);
+}
+
+#portfolio__project7 {
+  background-image: url(../portfolio/portfolio_project7.jpg);
+}
+
+#portfolio__project8 {
+  background-image: url(../portfolio/portfolio_project8.jpg);
+}
+
+#portfolio__project9 {
+  background-image: url(../portfolio/portfolio_project9.jpg);
+}
+
+/* Portfolio styling */
+.portfolio__img {
+  background-position: 50% 30%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  height: 90vw;
+  width: 90%;
+  max-height: 25rem;
+  max-width: 30rem;
+  transition: all 0.5s ease-out;
+}
+
+.portfolio__projectTitle {
+  color: white;
+  background-color: rgba(255, 99, 71, 0.4);
+  font-size: 1.2rem;
+  margin-top: auto;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+/*
+
+Labels for different portfolios -- note appdevlabel forced
+to #cacaca initially --  appdev has checked/not checked reversed
+
+*/
+
+.portfolio__label {
+  background-color: #F7780F;
+  border-style: solid;
+  border-width: 1.5px;
+  color: white;
+  display: block;
+  font-size: 0.8rem;
+  margin-bottom: 0.3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+#portfolio__web:not(:checked)~#portfolio__webLabel {
+  background-color: #cacaca;
+}
+
+
+#portfolio__appdev:checked~#portfolio__appdevLabel {
+  background-color: #cacaca;
+}
+
+#portfolio__mobileapp:not(:checked)~#portfolio__mobileappLabel {
+  background-color: #cacaca;
+}
+
+/* Show and Hide portfolio images */
+/*web projects */
+#portfolio__web, .portfolio__webproj {
+  opacity: 1;
+  transform: scale(1);
+  visibility: visible;
+
+  opacity: 0;
+  transform: scale(0);
+  visibility: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#portfolio__web:checked~.portfolio__webproj {
+  opacity: 1;
+  transform: scale(1);
+  visibility: visible;
+  position: relative;
+}
+
+/* app dev projections */
+#portfolio__appdev, .portfolio__appdevproj {
+  opacity: 1;
+  transform: scale(1);
+  visibility: visible;
+  position: relative;
+  opacity: 0;
+  transform: scale(0);
+  visibility: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#portfolio__appdev:not(:checked)~.portfolio__appdevproj {
+  opacity: 1;
+  transform: scale(1);
+  visibility: visible;
+  position: relative;
+}
+
+/* mobile app projections */
+#portfolio__mobileapp, .portfolio__mobileproj {
+  opacity: 1;
+  transform: scale(1);
+  visibility: visible;
+  opacity: 0;
+  transform: scale(0);
+  visibility: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#portfolio__mobileapp:checked~.portfolio__mobileproj {
+  opacity: 1;
+  transform: scale(1);
+  visibility: visible;
+  position: relative;
+}
