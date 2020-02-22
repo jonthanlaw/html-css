@@ -24,6 +24,7 @@
   <link rel="stylesheet" type="text/css" href="css\standalone.css">
   <link rel="stylesheet" type="text/css" href="css\team.css">
   <link rel="stylesheet" type="text/css" href="css\portfolio.css">
+  <link rel="stylesheet" type="text/css" href="css\about.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -189,84 +190,90 @@
       </h2>
       <p class="about__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. laudantium culpa tenetur.
       </p>
-      <img class="about__img" src="photo/office-work.jpg" alt="office-work-photo">
-      <p class="about__imgdesc">Lorem ipsum dolor sit amet, cadipisicing sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium,
-        ut unde fuga error commodi architecto, laudantium culpa tenetur at id, beatae pet.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. adipisicing sit amet, consectetur adipisicing elit. Atque sed,
-        quidem quis praesentium,m deserunt.
-      </p>
-      <ul class="about__list">
-        <li class="about__listitem">Lorem ipsum enimdolor sit amet</li>
-        <li class="about__listitem">Explicabo deleniti neque aliquid</li>
-        <li class="about__listitem">Consectetur adipisicing elit</li>
-        <li class="about__listitem">Lorem ipsum dolor sit amet</li>
-        <li class="about__listitem">Quo issimos molest quibusdam temporibus</li>
-      </ul>
+      <div class="about__container">
+        <img class="about__img" src="photo/office-work.jpg" alt="office-work-photo">
+        <p class="about__imgdesc">Lorem ipsum dolor sit amet, cadipisicing sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium,
+          ut unde fuga error commodi architecto, laudantium culpa tenetur at id, beatae pet.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. adipisicing sit amet, consectetur adipisicing elit. Atque sed,
+          quidem quis praesentium,m deserunt.
+        </p>
+        <ul class="about__list">
+          <li class="about__listitem">Lorem ipsum enimdolor sit amet</li>
+          <li class="about__listitem">Explicabo deleniti neque aliquid</li>
+          <li class="about__listitem">Consectetur adipisicing elit</li>
+          <li class="about__listitem">Lorem ipsum dolor sit amet</li>
+          <li class="about__listitem">Quo issimos molest quibusdam temporibus</li>
+        </ul>
+      </div>
     </section>
+    <!-- Container for second about section -->
+    <div class="about2__container">
+      <section class="aboutTemp">
+        <h3 class="aboutTemp__title">Amazing Free Bootstrap Template
+        </h3>
+        <p class="aboutTemp__desc">Lorem ipsum dolor sit amet, adipisicing sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium,
+          ut unde error commodi architecto, laudantium culpa optio corporis quod earumdignissimos eius mollitia et quas officia doloremque.
+        </p>
+        <ol class="aboutTemp__list">
+          <li class="aboutTemp__listItem">Lorem ipsum enimdolor sit amet</li>
+          <li class="aboutTemp__listItem">Explicabo deleniti neque aliquid</li>
+          <li class="aboutTemp__listItem">Consectetur adipisicing elit</li>
+          <li class="aboutTemp__listItem">Lorem ipsum dolor sit amet</li>
+          <li class="aboutTemp__listItem">Quo issimos molest quibusdam temporibus</li>
+        </ol>
+        <p class="aboutTemp__listDesc">Dolores quam magnam aadipisicing sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde molestias velit eveniet,
+          facere autem saepe autrunt.
+        </p>
+      </section>
 
-    <section class="aboutTemp">
-      <h3 class="aboutTemp__title">Amazing Free Bootstrap Template
-      </h3>
-      <p class="aboutTemp__desc">Lorem ipsum dolor sit amet, adipisicing sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium,
-        ut unde error commodi architecto, laudantium culpa optio corporis quod earumdignissimos eius mollitia et quas officia doloremque.
-      </p>
-      <ol class="aboutTemp__list">
-        <li class="aboutTemp__listItem">Lorem ipsum enimdolor sit amet</li>
-        <li class="aboutTemp__listItem">Explicabo deleniti neque aliquid</li>
-        <li class="aboutTemp__listItem">Consectetur adipisicing elit</li>
-        <li class="aboutTemp__listItem">Lorem ipsum dolor sit amet</li>
-        <li class="aboutTemp__listItem">Quo issimos molest quibusdam temporibus</li>
-      </ol>
-      <p class="aboutTemp__listDesc">Dolores quam magnam aadipisicing sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde molestias velit eveniet,
-        facere autem saepe autrunt.
-      </p>
-    </section>
+      <!-- Collapsible Items -->
+      <section class="accordion">
+        <ul>
+          <li class="accordion__list">
+            <input id="collapse1" type=checkbox>
+            <label for="collapse1">
+              <div class="accordion_expander">
+                <a class="accordion__btn">Collapsible Group Item #1</a>
+                <img class="accordion__expandIcon" src="icon/expand-icon.png" alt="expand icon">
+              </div>
+            </label>
 
-    <!-- Collapsible Items -->
-    <section class="accordion">
-      <ul>
-        <li class="accordion__list">
-          <input id="collapse1" type=checkbox>
-          <label for="collapse1">
-            <div class="accordion_expander">
-              <a class="accordion__btn">Collapsible Group Item #1</a>
-              <img class="accordion__expandIcon" src="icon/expand-icon.png" alt="expand icon">
-            </div>
-          </label>
+            <p id="collapseContent1" class="accordion__info">Consectetur adipisicing sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt,
+              optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat ntium, ut unde. Quae sed, incidunt laudantium nesciunt,
+              optio corporis quod earumdignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt.
+            </p>
+          </li>
+          <li class="accordion__list">
+            <input id="collapse2" type=checkbox>
+            <label for="collapse2">
+              <div class="accordion_expander">
+                <a class="accordion__btn">Collapsible Group Item #2</a>
+                <img class="accordion__expandIcon" src="icon/expand-icon.png" alt="expand icon">
+              </div>
+            </label>
+            <p id="collapseContent2" class="accordion__info">Consectetur adipisicing sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt,
+              optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat ntium, ut unde. Quae sed, incidunt laudantium nesciunt,
+              optio corporis quod earumdignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt.
+            </p>
+          </li>
+          <li class="accordion__list">
+            <input id="collapse3" type=checkbox>
+            <label for="collapse3">
+              <div class="accordion_expander" id='Collapse3'>
+                <a class="accordion__btn">Collapsible Group Item #3</a>
+                <img class="accordion__expandIcon" src="icon/expand-icon.png" alt="expand icon">
+              </div>
+            </label>
+            <p id="collapseContent3" class="accordion__info">Consectetur adipisicing sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt,
+              optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat ntium, ut unde. Quae sed, incidunt laudantium nesciunt,
+              optio corporis quod earumdignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt.
+            </p>
+          </li>
+        </ul>
+      </section>
 
-          <p id="collapseContent1" class="accordion__info">Consectetur adipisicing sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt,
-            optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat ntium, ut unde. Quae sed, incidunt laudantium nesciunt,
-            optio corporis quod earumdignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt.
-          </p>
-        </li>
-        <li class="accordion__list">
-          <input id="collapse2" type=checkbox>
-          <label for="collapse2">
-            <div class="accordion_expander">
-              <a class="accordion__btn">Collapsible Group Item #2</a>
-              <img class="accordion__expandIcon" src="icon/expand-icon.png" alt="expand icon">
-            </div>
-          </label>
-          <p id="collapseContent2" class="accordion__info">Consectetur adipisicing sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt,
-            optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat ntium, ut unde. Quae sed, incidunt laudantium nesciunt,
-            optio corporis quod earumdignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt.
-          </p>
-        </li>
-        <li class="accordion__list">
-          <input id="collapse3" type=checkbox>
-          <label for="collapse3">
-            <div class="accordion_expander" id='Collapse3'>
-              <a class="accordion__btn">Collapsible Group Item #3</a>
-              <img class="accordion__expandIcon" src="icon/expand-icon.png" alt="expand icon">
-            </div>
-          </label>
-          <p id="collapseContent3" class="accordion__info">Consectetur adipisicing sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt,
-            optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat ntium, ut unde. Quae sed, incidunt laudantium nesciunt,
-            optio corporis quod earumdignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt.
-          </p>
-        </li>
-      </ul>
-    </section>
+    </div>
+    <!-- End of second about section -->
 
     <!-- Standalone section saying "Amazing Free Bootstrap Theme" -->
     <section class="standalonePhrase">
