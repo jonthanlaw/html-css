@@ -115,3 +115,21 @@ li.aboutTemp__listItem:before {
 }
 
 /* Second about section media queries */
+
+@media screen and (min-width: 994px) {
+  .about2__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2rem;
+  }
+
+}
+
+@media screen and (min-width: 1050px) {
+  .about2__container{
+    width: 1050px;
+    margin: auto;
+    margin-top: 2rem;
+  }
+
+}
