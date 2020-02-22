@@ -9,7 +9,6 @@
 .testimonial {
   background-color: #D6D6D6;
   width: 400%;
-  height: 130vw;
   max-height: 40rem;
   position: relative;
 
@@ -136,11 +135,13 @@ plus width and 1rem (to offset right of center dot)*/
 }
 
 .testimonial__img {
-  height: 30vw;
+  display: flex;
+  height: 30%;
   width: 30%;
   margin: auto;
-  margin-top: 10%;
+  margin-top: 2rem;
   position: relative;
+  overflow-y: hidden;
 }
 
 .testimonial__img--1,
@@ -155,7 +156,7 @@ plus width and 1rem (to offset right of center dot)*/
 .testimonial__text {
   font-size: 1.3rem;
   font-style: italic;
-  padding: 10% 0.5rem 0 0.5rem;
+  padding: 2rem 0.5rem 0 0.5rem;
   text-align: center;
 }
 
@@ -163,6 +164,6 @@ plus width and 1rem (to offset right of center dot)*/
   color: #505050;
   font-size: 1rem;
   font-style: italic;
-  padding-top: 10%;
+  padding-top: 2rem;
   text-align: center;
 }
