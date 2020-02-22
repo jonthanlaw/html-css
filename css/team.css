@@ -75,3 +75,29 @@
   padding-bottom: 1rem;
   text-align: center;
 }
+
+/* Team card media queries */
+@media screen and (min-width: 768px){
+.team__memberContainer{
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr 1fr;
+  justify-content: center;
+ text-align: center;
+}
+
+.team__member {
+justify-self: center;
+margin: 0%;
+  width: 95%;
+}
+
+}
+
+@media screen and (min-width: 1050px)
+{
+  .team{
+    width: 1050px;
+    margin: auto;
+  }
+
+}
